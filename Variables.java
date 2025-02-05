@@ -1,6 +1,7 @@
 
 class A {
     static int a = 9;
+    int aa = 7;// instance variable
 
     static void stameth() {
         // static int b = 8;//error
@@ -8,6 +9,13 @@ class A {
 
     void s() {
         // static int b = 8;//error
+
+        int aa = 9;// local varibale so duplicate allowed.
+
+        int bb = 6;
+        {
+            // int bb = 6;// error:duplicate local variable
+        }
     }
 }
 
