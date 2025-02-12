@@ -1,6 +1,6 @@
 
 class A {
-    static int a = 9;
+    static int a = 9;//static variable
     int aa = 7;// instance variable
 
     static void stameth() {
@@ -20,6 +20,8 @@ class A {
 }
 
 public class Variables {
+    int aa=99;//instance variable.
+
 
     public static void main(String[] arg) {
         // variables are the containers for the data or you can say it is the name given
@@ -57,5 +59,12 @@ public class Variables {
         // automatically replace object name with class name.
         // static variable cannot declared locallly inside an instance method
         // static blocks can be used to initialize static variables.
+
+
+        int aa=999;//local variable with same name of instance variable.
+
+        System.out.println(aa);
+        System.out.println();
+
     }
 }

@@ -29,12 +29,14 @@ public class Identifier {
         // used.
         // beginning with jdk 9 , The underscore cannot be used by itself as an
         // identifier.
-        int a;
+      
         // int _;// declaration and initialization in one line is allowed.
-        int _ = 6;
-        // _=9;
-        // int a= _ ;
-        // int const=9;
+       // int _ = 6;
+       //_=9;//error.
+       // int _;//error
+
+       // int a= _ ; //error underscore not allowed here.
+        //int const=8; //error
         // int goto=0;//invalid variable declaration
         System.out.println();
     }
