@@ -77,5 +77,17 @@ Relational Operators are used to check for relations like equality, greater than
                 /*
                  Precedence and associative rules are used when dealing with hybrid equations involving more than one type of operator. In such cases, these rules determine which part of the equation to consider first, as there can be many different valuations for the same equation. The below table depicts the precedence of operators in decreasing order as magnitude, with the top representing the highest precedence and the bottom showing the lowest precedence.
                  */
+
+
+
+                 //boolean b=1&&3;//error: bad operand types for binary operator '&&' 
+                 //boolean c= 1<2&&2<2;//works
+            
+     
+              int a;
+              a=90;
+            
+             a= (a==9?(a=90):(a=0));
+             System.out.println(a);
     }
 }
